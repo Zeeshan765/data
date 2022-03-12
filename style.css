@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url(./images/cup.jpg);
+
+    height: 100vh;
+
+}
+
+
+.TopMenu span{
+    margin-left: 20px;
+    color:#fff;
+    float:left;
+    margin-top:30px;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.menu-list{
+    float: right;
+margin-right: 60px;
+    margin-top: 30px;
+}
+
+.menu-list li {
+    display: inline-block;
+    
+    list-style: none;
+
+}
+
+.menu-list a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+}
+.menu-list li  a:hover{
+ border-bottom: 2px solid hotpink;   
+ color:goldenrod;
+}
+
+
+
+.clearfix::after{
+     content:".";
+    visibility: hidden;
+    display: block;
+     height:0px;
+     clear:both;
+
+}
+
+.content{
+    
+    width:67%;
+    color: white;
+    font-size: 5rem;
+    font-weight: 100;
+    font-family: sans-serif;
+    margin-top: 160px;
+    margin-left: 280px;
+}
+
+.content p{
+    color:rgb(194, 191, 22);
+    font-size: 1.5rem;
+    margin-left: 130px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.btn{
+    margin-left: 70px;
+    background-color: transparent;
+    color: hotpink;
+    border-color: hotpink;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    padding: 5px 5px;
+    border-radius: 3rem;
+}
+
+.btn-1{
+    margin-left: 70px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    padding: 5px 5px;
+    border-radius: 3rem; 
+}
+.btn:hover{
+    background-color: hotpink;
+    color: whitesmoke;
+}
+
+.btn-1:hover{
+    background-color: white;
+    color: black;
+}
+
+
